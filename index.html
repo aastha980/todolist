@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TodoList</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+    <script src="jquery.js" type="text/javascript"></script>
+    <script src="todolistnew.js"></script>
+</head>
+<body>
+
+<div class="row header">
+    <div class="col"></div>
+    <div class="col">
+        <h1 align="center">Todo List</h1>
+    </div>
+    <div class="col"></div>
+</div>
+
+<div class="container">
+    <div class="row" id="input-row">
+        <div class="col">
+            <input type="text" class="form-control" id="input-new-todo">
+        </div>
+        <div class="col-2">
+            <button id="btn-add-todo" class="btn btn-outline-primary">
+                <i class="fa fa-plus-circle"></i>
+            </button>
+        </div>
+        <div class="col-2">
+            <button id="btn-clear-done" class="btn btn-outline-danger">
+                <i class="fa fa-trash"></i>
+            </button>
+        </div>
+    </div>
+    <div class="row">
+        <div id="todolist-container" class="col-12">
+            <ul class="list-group" id="list-todos">
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
